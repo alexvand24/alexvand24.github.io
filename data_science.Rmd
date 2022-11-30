@@ -1,0 +1,10 @@
+---
+title: "Data Science"
+listing: posts
+description: |
+  Data science blog posts
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
