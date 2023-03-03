@@ -1,18 +1,20 @@
 ---
 title: "Alex Vand"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  environmental data scientist & outdoor educator
+image: "AV_photos/AV_photo_hat_cropped.jpg"
+links:
+  - label: '`r fontawesome::fa("linkedin", height = "25px")`'
+    url: "https://www.linkedin.com/in/alexvand24/"
+  - label: '`r fontawesome::fa("github", height = "25px")`'
+    url: "https://github.com/alexvand24"
+  - label: '`r fontawesome::fa("envelope", height = "25px")`'
+    url: "mailto:alexvand24@gmail.com"
+  - label: UCSB
+    url: "https://bren.ucsb.edu/people/alex-yousefivand-vand"
+output:
+  postcards::jolla
 site: distill::distill_website
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
-```
-
+ 
+I am a recent graduate from UCSB's Bren School's [Master of Environmental Data Science](https://ucsb-meds.github.io/) program living in Santa Barbara, California. Currently I work as an outdoor educator. Ask me about yoga, scuba, and kayaking the Channel Island sea caves!

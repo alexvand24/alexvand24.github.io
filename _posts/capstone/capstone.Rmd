@@ -1,0 +1,100 @@
+---
+title: "Master's Capstone Project"
+description: |
+  Team members: Connor Flynn, Mia Forsline, and Scout Leonard
+author:
+  - name: Alex Vand
+    url: {}
+date: 2022-06-15
+output:
+  distill::distill_article:
+    self_contained: false
+preview: images\map_example.png
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# **Assessing potential environmental justice implications of U.S. food production.**
+
+As human populations grow, global food production to meet these increasing demands places strain on finite natural resources. The sustainability implications of food production vary by food system. Different food production types create various ranges of greenhouse gas emissions, spatial disturbance, freshwater use, and nutrient pollution. These environmental pressures vary spatially as well. Not only do these pressures have ecological impacts, but also impacts on human health and wellbeing.
+
+
+**Understanding the spatial distribution of environmental pressures from food production can help to inform sustainable and just food production**
+
+
+# Deliverables & Products
+
+In order to support our client, the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)), our team was tasked with the following:
+
+1. Create a  single **processed dataset** with metadata that summarizes the total environmental pressure burden from food production for each food type and each environmental pressure type, for each county in the U.S.
+2. Develop **visualizations** to help understand pressure distributions and their co-occurrence with both positive and negative human health outcomes
+3. Generate **AI models** to understand food production pressures in predicting health outcomes
+
+
+## 1. Processed dataset
+
+At the beginning of our capstone project, the raw data from NCEAS contained hundreds of separate images that describe the geographic distribution of environmental pressures from food production. Each image separately describes a specific type of food production and specific environmental pressure from that food production. For example, one of these images could describe the distribution of greenhouse gas emissions from the production of eggs, and another might describe the use of freshwater during soy production. In this form, these separate image files are difficult to derive meaning or patterns from. Using tools like R and GitHub, our team worked to make a meaningful data format for analyzing county-level food pressure patterns in the U.S.
+
+![_Figure 1_: Processed dataset.](images\processed_dataset.png)
+
+We subsetted the global data to our area of interest, the United States, and aggregated hundreds of these images into a single, tidy, rectangular dataset. This tabular dataset contains: for each county in the US, for each food type, and for each environmental pressure type (such as greenhouse gas emissions or water use), the environmental pressure from food production.
+
+
+This example above shows just two rows of our processed, tabular data from Santa Barbara county, although our total processed dataset contains more than 330,000 summarized pressure values covering every county in the US. 
+
+## 2. Visualizations
+
+### Maps 
+
+Using the processed dataset, we created a series of maps that show how environmental pressure from food production varies by county across the US. This map below is one example that shows greenhouse gas emissions from all food production types for each county; with red indicating counties with higher emissions and blue representing counties with lower emissions. Maps like this one can be used to visualize the spatial distribution of environmental pressures from food production on the county level and compare exposure to pressures across regions.
+
+![_Figure 2_: Map example showing greenhouse gas emissions due to U.S. food production by county.](images\map_example.png)
+
+In addition to geographic maps, another visualization we created to study the relationship between food production and human health are correlation plots. 
+
+### Correlation plots
+
+This visual below is one way our team compared patterns of health outcomes as food production increases. The main takeaway from this correlation plot is that health outcomes in regions of high food production differ across states and regions.
+
+![_Figure 3_: Correlation plot example.](images\corr_plot.png)
+
+
+
+## 3. Random forest models
+### Variable importance plot
+
+
+
+Curious to dig deeper into the patterns we observed in the correlation plots, we used a machine learning technique to better understand which variables are most important for predicting health outcomes. Below is a variable importance plot generated from a random forest model.
+
+
+![_Figure 4_: Variable importance plot example.](images\var_imp_plot.png)
+
+
+The NCEAS Food Systems Working Group is doing important work to  investigate the spatial distribution of environmental pressures from global food production. We are excited to have contributed **processed datasets** that are ready to use for analysis; **visualizations** to explore patterns between food production and health; and **random forest modelling** to begin to understand the importance of proximity to food production in predicting health outcomes.
+
+### Acknowledgements
+
+#### Faculty Advisors
+Dr. Benjamin Halpern (NCEAS Executive Director),
+Dr. Allison Horst (Bren School of Environmental Science & Management UCSB)
+
+#### External Advisors at NCEAS
+Gage Clawson, Haley Epperly, Dr. Caitlin Fong, Dr. Melanie Frazier
+
+#### Further Support
+NCEAS Food Systems Working Group, MEDS Cohort and Staff
+
+
+
+
+
+
+
+
+
+
+

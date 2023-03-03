@@ -1,0 +1,41 @@
+---
+title: "Teaching"
+#listing: teaching
+description: |
+  My teaching experience
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
++ Outdoor Education at SB Adventure Co.
+
+  + sustainable stewardship
+  + ocean kayaking
+  + hiking
+  + camping skills
+  + food preparation
+  + evolutionary nocturnal adaptations
+
+
++ Teaching Assistant (TA) at UCSB
+
+  + PHYS  Dept: Electricity & Magnetism       (Winter 2022)
+  + PSTAT Dept: Statistics for Life Science   (Spring 2022)
+
+
++ Tutoring
+
+  + algebra
+  + biology
+  + calculus
+  + chemistry
+  + geometry
+  + physics
+  + Spanish
+  + trigonometry
+  
++ Tennis coach
+  
+  

@@ -1,10 +1,12 @@
 ---
-title: "About this site"
+title: "About Me"
 description: |
-  Some additional details about the website
+  I am a recent graduate from UCSB's Bren School seeking a career that uses data to prioritize social impact through an environmental justice lens. As a SCUBA diver, outdoor educator, and longtime traveler, I am passionate about sustainable consumerism and combating climate change. My nontraditional path has afforded me the opportunity to work and volunteer in various pockets of the world before returning to UCSB to continue my academic career. During graduate school, I became captivated by the interdisciplinary field of environmental informatics and the value of scientific reproducibility and collaboration. My emerging interests include education within environmental data science and open science methods. A unifying theme to my research is addressing climate injustices by studying our constantly changing planet as we prepare for a wildly different future.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+![Great Smoky Mountains National Park](AV_photos/AV_photo_back.jpg)
 

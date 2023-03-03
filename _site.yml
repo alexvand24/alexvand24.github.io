@@ -3,14 +3,19 @@ title: "Alex Vand"
 description: |
   Alex's Website
 output_dir: "docs"
+theme: theme.css
 navbar:
   right:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html
     - text: "Data Science"
       href: data_science.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Capstone Project"
+      href: "capstone_tech_doc.pdf"
     - text: "Resume"
-      href: resume.html
+      href: "Vand_resume.pdf"
+    - icon: fab fa-github
+      href: https://github.com/alexvand24/alexvand24.github.io
 output: distill::distill_article
