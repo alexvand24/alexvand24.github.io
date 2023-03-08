@@ -11,6 +11,13 @@ output:
 #    code_folding: hide
   distill::distill_article:
     self_contained: false
+categories:
+  - R
+  - linear regression
+  - lag analysis
+  - climate
+  - statistics
+  - autocorrelation
 ---
 
 

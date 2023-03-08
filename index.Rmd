@@ -2,14 +2,14 @@
 title: "Alex Vand"
 description: |
   environmental data scientist & outdoor educator
-image: "AV_photos/AV_photo_hat_cropped.jpg"
+image: "AV_photos/AV_photo_hat.jpg"
 links:
   - label: '`r fontawesome::fa("linkedin", height = "25px")`'
     url: "https://www.linkedin.com/in/alexvand24/"
-  - label: '`r fontawesome::fa("github", height = "25px")`'
-    url: "https://github.com/alexvand24"
   - label: '`r fontawesome::fa("envelope", height = "25px")`'
     url: "mailto:alexvand24@gmail.com"
+  - label: '`r fontawesome::fa("github", height = "25px")`'
+    url: "https://github.com/alexvand24"
   - label: UCSB
     url: "https://bren.ucsb.edu/people/alex-yousefivand-vand"
 output:
