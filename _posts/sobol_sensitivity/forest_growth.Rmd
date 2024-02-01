@@ -1,5 +1,5 @@
 ---
-title: "Sobol sensitivity analysis"
+title: "Sobol Sensitivity Analysis"
 description: |
   Forest growth model
 author:

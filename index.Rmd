@@ -17,4 +17,4 @@ output:
 site: distill::distill_website
 ---
  
-I am a recent graduate from UCSB's Bren School's [Master of Environmental Data Science](https://ucsb-meds.github.io/) program living in Santa Barbara, California. Currently I work as an outdoor educator. Ask me about yoga, scuba, and kayaking the Channel Island sea caves!
+I am a graduate from the [Master of Environmental Data Science](https://ucsb-meds.github.io/) program at the Bren School, living in Santa Barbara, California. Currently, I work as an outdoor educator. Ask me about yoga, scuba, and kayaking the Channel Island sea caves!

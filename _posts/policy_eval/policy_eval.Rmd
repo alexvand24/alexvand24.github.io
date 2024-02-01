@@ -1,5 +1,5 @@
 ---
-title: "Policy evaluation"
+title: "Environmental Policy Evaluation"
 description: |
   Effects of garbage incinerator on nearby housing values
 author:
@@ -189,7 +189,7 @@ model_land  <- lm_robust(land ~ nearinc, data = data_1978)
 summary(model_land)
 ```
 
-**Additionally, each of these coefficients (or mean difference values) are statistically significant (p = 0.05). The above evidence implies the location choice of the incinerator was not “random”, but rather selected on the basis of housing prices and characteristics.**
+**Additionally, each of these coefficients (or mean difference values) are statistically significant (p < 0.05). The above evidence implies the location choice of the incinerator was not “random”, but rather selected on the basis of housing prices and characteristics.**
 
 
 

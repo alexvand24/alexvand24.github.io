@@ -1,7 +1,9 @@
 ---
 title: "About Me"
 description: |
-  I am a recent graduate from UCSB's Bren School seeking a career that uses data to prioritize social impact through an environmental justice lens. As a SCUBA diver, outdoor educator, and longtime traveler, I am passionate about sustainable consumerism and combating climate change. My nontraditional path has afforded me the opportunity to work and volunteer in various pockets of the world before returning to UCSB to continue my academic career. During graduate school, I became captivated by the interdisciplinary field of environmental informatics and the value of scientific reproducibility and collaboration. My emerging interests include education within environmental data science and open science methods. A unifying theme to my research is addressing climate injustices by studying our constantly changing planet as we prepare for a wildly different future.
+
+  I am a graduate from UCSB's Bren School seeking a career that uses data to prioritize social impact and environmental justice. With my work background in tourism, education, and logistics, I am passionate about sustainable consumerism and combating climate change. My nontraditional path has afforded me the opportunity to work and volunteer in various pockets of the world, such as Albania, Croatia, Spain, and Vietnam. Whether I am kayaking through the Channel Islands sea caves as an outdoor educator, guiding yoga classes at a coastal European hostel, or teaching English and scuba diving in Southeast Asia, nature is central to my core and is what motivates my work. During graduate school, I became captivated by the interdisciplinary field of environmental informatics and the value of scientific reproducibility and collaboration. My emerging interests include education within environmental data science and open science methods. A unifying theme to my research is addressing climate injustices by studying our constantly changing planet as we prepare for a wildly different future.
+  
 ---
 
 ```{r setup, include=FALSE}
