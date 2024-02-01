@@ -2,7 +2,7 @@
 title: "Alex Vand"
 description: |
   environmental data scientist & outdoor educator
-image: "AV_photos/AV_photo_hat.jpg"
+image: "AV_photos/test_image.jpg"
 links:
   - label: '`r fontawesome::fa("linkedin", height = "25px")`'
     url: "https://www.linkedin.com/in/alexvand24/"
